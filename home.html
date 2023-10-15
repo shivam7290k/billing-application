@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/billing.css">
+        <script  type="text/javascript" src="js/total.js">
+
+        </script>
+       
+    </head>
+    <body>
+        <div style="height: 450px; width:550px; background-color:#B0C4DE ; border:dashed; margin: 100px 0px 0px 400px;">
+
+            <div style="float:left; border: none; margin: 20px 0px 0px 35px;">
+                Name : <input type="text" style="height: 30px;" />
+            </div>
+
+            <div style="float:right; border: none; margin: 20px 35px 0px 0px; ">
+                Phone : <input type="number" style="height: 30px;"  />
+            </div><br><br>
+
+            <h2 >
+                Order
+            </h2>
+            <div style="float: left;background-color:gray; border:outset; height:200px; width:200px; margin: 20px 0px 0px 35px; ">
+                <input type="checkbox" class="input" id="tea"/>  Tea @50 <br>
+                <input type="checkbox" class="input"  id="coffee"/>  Coffee @100 <br>
+                <input type="checkbox" class="input"  id="pizza"/>  Pizza @250 <br>
+                <input type="checkbox" class="input"  id="cold"/>  Cold drink @100 <br>
+                <input type="checkbox" class="input"  id ="burger"/>  Burger @80 <br>
+
+
+            </div>
+
+            <div style="float: right; border:inset;background-color:grey; height:150px; width:200px; margin: 20px 35px 0px 0px; ">
+                
+              <h1>
+                Total Bill
+              </h1>
+              <input type="textarea"value="0" style="height:50px;font-size:20px ; width:150px; margin:20px 0px 0px 25px" id="total"/>
+
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           
+
+            <input type="button" value="Order Now" onclick="order1()"
+             style="height:40px;background-color:#E6E6FA; cursor: pointer; width:100px; margin-left:225px;"/>
+
+
+           </div>
+    </body>
+</html>
